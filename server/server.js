@@ -109,7 +109,7 @@ const dirname = path.resolve();
 app.use(express.static(path.join(dirname, '/client/build')));
 
 app.get('*', (req, res) =>
-  res.sendFile(path.join(dirname, '/client/build/index.html'))
+  res.sendFile(path.join(dirname, '/client/build/index.html') )
 );
 
 const port = process.env.PORT || 8000;
