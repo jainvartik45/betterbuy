@@ -67,6 +67,5 @@ $ npm start
 ```  
 
 ### 6. Run locally
-- Run this on browser: http://localhost:3000  
-)
+- Run this on browser: http://localhost:3000 
 
