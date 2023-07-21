@@ -17,7 +17,11 @@ const Navbar = (props) => {
               </h1>
             </Link>
            
-              <h5>Add Product</h5>
+              <Link to="/" style={{ textDecoration: 'none' }}>
+              <h1 >
+                Add product
+              </h1>
+            </Link>
             
             <h5>About Us</h5>
 
