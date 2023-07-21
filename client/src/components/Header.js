@@ -17,7 +17,7 @@ const Navbar = (props) => {
               </h1>
             </Link>
            
-              <Link to="/" style={{ textDecoration: 'none' }}>
+              <Link to="/add-product" style={{ textDecoration: 'none' }}>
               <h1 >
                 Add product
               </h1>
